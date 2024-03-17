@@ -10,9 +10,9 @@ const HeroSection = () => {
     const [position, setPosition] = React.useState("bottom")
 
     return (
-        <div className="bg-cover bg-center grid grid-cols-2 gap-4 px-32" style={{ backgroundImage: "url('/bg.png')" }}>
+        <div className="bg-cover bg-center grid md:grid-cols-2 gap-4 md:px-32" style={{ backgroundImage: "url('/bg.png')" }}>
             <div className='grid py-16 px-16 h-[65vh]'>
-                <h1 className='text-black text-5xl'>Morder wealth management for <br /> <span className='font-mono'>everyone</span></h1>
+                <h1 className='text-black text-5xl'>Modern wealth management for <br /> <span className='font-mono'>everyone</span></h1>
                 <p className='text-gray-500'>
                     From investment planning to asset management, Our services are tailored to meet your unique needs
                 </p>
@@ -28,7 +28,7 @@ const HeroSection = () => {
             <div className='grid py-16 px-16 h-[65vh]'>
                 <div className="grid grid-cols-12 grid-flow-col">
                     <div className='col-span-10 '>
-                        <p className='text-8xl font-light'>$15.62M</p>
+                        <p className='md:text-8xl text-6xl font-light'>$15.62M</p>
                     </div>
                     <div className='col-span-2 '>
                         <div>
@@ -42,7 +42,7 @@ const HeroSection = () => {
                 <div>
                     <CardDemo />
                 </div>
-                <div className='flex space-x-5 justify-end items-center'>
+                <div className='md:pt-0 pt-10 flex md:space-x-5 justify-end items-center'>
                     <div>
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
