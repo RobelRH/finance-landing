@@ -22,7 +22,7 @@ const Navbar = () => {
             <nav className="flex justify-between items-center w-[98%]  mx-auto">
                 <div className='flex'>
                     <div className='px-5'>
-                        <Image width={25} height={25} className="w-20 cursor-pointer" src="/vercel.svg" alt="..." />
+                        <Image width={10} height={10} className="w-24 cursor-pointer" src="/logo.svg" alt="..." />
                     </div>
                     <div
                         className={`duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 ${toggle ? 'top-[8%]' : 'top-[-100%]'} md:w-auto w-full flex justify-center items-center px-5`}>

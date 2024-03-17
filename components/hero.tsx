@@ -28,7 +28,7 @@ const HeroSection = () => {
             <div className='grid py-16 px-16 h-[65vh]'>
                 <div className="grid grid-cols-12 grid-flow-col">
                     <div className='col-span-10 '>
-                        <p className='md:text-8xl text-6xl font-light'>$15.62M</p>
+                        <p className='md:text-8xl text-6xl font-light'>$156.2M</p>
                     </div>
                     <div className='col-span-2 '>
                         <div>
